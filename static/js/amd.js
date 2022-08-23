@@ -2,7 +2,7 @@ var S = {
                 init: function () {
                     S.Drawing.init('.canvas');
                     document.body.classList.add('body--ready');
-                    S.UI.simulate("|AMD|YES|#countdown");
+                    S.UI.simulate("|amd|yes|#countdown");
                     S.Drawing.loop(function () {
                         S.Shape.render();
 						
